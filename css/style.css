@@ -2,3 +2,27 @@
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.level2nav {
+  display: flex;
+}
+
+.bigbutton, .mediumbutton, .littlebutton {
+  margin: 5px;
+  height: auto;
+}
+
+.bigbutton {
+  width: 370px;
+}
+
+.mediumbutton {
+  width: 170px;
+}
+
+.littlebutton {
+  width: 70px;
+}
+
+
