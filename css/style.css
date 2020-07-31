@@ -47,6 +47,12 @@ nav  {
   padding: 0 30px 30px 30px;
   min-width: 370px;
 }
+
+#words p {
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
 .sticky {
   position: fixed;
   top: 0;
