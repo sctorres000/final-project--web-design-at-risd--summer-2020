@@ -9,6 +9,44 @@ nav  {
   position: absolute;
 }
 
+#content, .contact {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% - 495px);
+  padding: 0px 60px 60px 60px;
+}
+
+#content > img {
+  width: calc(100% - 60px);
+  height: auto;
+  overflow: hidden;
+}
+
+#content-about, #content img {
+  padding: 0px 60px 60px 60px;
+  float: right;
+}
+
+#content-about {
+  width: calc(100% - 495px);
+  height: auto;
+}
+
+#content-about {
+  background-color: transparent;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#content-about img {
+  float: right;
+  width: calc(50% - 60px);
+  height: auto;
+  padding: 0 30px 30px 30px;
+  min-width: 370px;
+}
 .sticky {
   position: fixed;
   top: 0;
